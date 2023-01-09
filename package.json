@@ -1,0 +1,38 @@
+{
+  "name": "rcore-course",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && cp 404.html dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@os2edu/layout": "^0.1.4",
+    "antd": "^4.23.5",
+    "axios": "^1.1.2",
+    "dayjs": "^1.11.6",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-qr-code": "^2.0.8",
+    "react-router-dom": "^6.4.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.186",
+    "@types/node": "^18.11.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/video.js": "^7.3.49",
+    "@vitejs/plugin-react": "^2.1.0",
+    "esbuild": "0.15.16",
+    "less": "^4.1.3",
+    "rollup-plugin-visualizer": "^5.8.3",
+    "sass": "^1.55.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vite-plugin-imp": "^2.3.0"
+  }
+}
