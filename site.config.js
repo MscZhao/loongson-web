@@ -17,6 +17,10 @@ export default {
       {
         text: '龙芯开源社区',
         link: 'http://www.loongnix.cn/zh/'
+      },
+      {
+        text: '龙芯开源技术开发者社区',
+        link: 'https://github.com/loongsonedu/loongsonedu.github.io'
       }
     ],
     contact: [
